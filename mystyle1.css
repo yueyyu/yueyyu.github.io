@@ -171,10 +171,10 @@ a.header_link:active, a.header_link:hover {
 
 #myfooter {
     padding-bottom: 1rem;
-    margin-top: 1rem;	
+    margin-top: 2rem;	
     position:relative;    
     width:100%;
-    max-width: none;      
+    //max-width: one;      
     background-image: url("data.jpg"); 
     opacity : 0.9;
 }
