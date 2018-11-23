@@ -172,7 +172,7 @@ a.header_link:active, a.header_link:hover {
     padding-bottom: 1rem;
     margin-top: 2rem;
     max-width: none;
-    position: relative;
+    position: center;
     background-image: url("https://yueyyu.github.io/data.jpg"); 
     opacity : 0.8;
 }
