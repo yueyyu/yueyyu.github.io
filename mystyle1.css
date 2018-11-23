@@ -13,6 +13,7 @@ sss {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     margin: 0;
+    width:100%;
     max-width: none;
     position: relative;
 }
@@ -23,7 +24,7 @@ sss {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url("https://yueyyu.github.io/data.jpg"); 
+    background-image: url("data.jpg"); 
     width: 100%;
     height: 100%;
     opacity : 0.85;
@@ -31,7 +32,7 @@ sss {
 }
 
 #main_header_tab {
-    
+    //font-family: "Helvetica", Gadget, sans-serif;
     font-size: 1.2rem;
     text-align: center;
     color: white
@@ -49,7 +50,7 @@ a.header_link:active, a.header_link:hover {
 
 
 #Hi {
-    
+    //font-family: Helvetica, Geneva, sans-serif;
     font-size: 2.5rem;
     text-align: center;
     padding: 10px 10px 10px 10px;
@@ -170,18 +171,19 @@ a.header_link:active, a.header_link:hover {
 
 #myfooter {
     padding-bottom: 1rem;
-    margin-top: 2rem;
-    max-width: none;
-    position: relative;
-    background-image: url("https://yueyyu.github.io/data.jpg"); 
-    opacity : 0.8;
+    margin-top: 1rem;	
+    position:relative;    
+    width:100%;
+    max-width: none;      
+    background-image: url("data.jpg"); 
+    opacity : 0.9;
 }
 
 #back_to_top {
     //font-family: "Helvetica Nueue", Helvetica, sans-serif;
     font-size: 1.7rem;
     text-align: center;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
     color: rgb(0, 0, 0);
 }
 
@@ -212,7 +214,7 @@ a.paper_href:active, a.paper_href:hover {
 
 
 #photo_title {
-    font-family: Optima, sans-serif;
+    //font-family: Optima, sans-serif;
     font-size: 1.2rem;
     text-align: center;
     padding: 80px 20px 10px 20px;
@@ -220,13 +222,13 @@ a.paper_href:active, a.paper_href:hover {
 }
 
 #photo_comment {
-    font-family: Optima, sans-serif;
+    //font-family: Optima, sans-serif;
     font-size: 0.8rem;
     text-align: center;
     padding: 5px 0px 10px 0px;
     color: rgb(31, 31, 31);
 }
-
+	
 
 
 
